@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <header class="shadow py-5">
+    <header class="shadow py-5 mb-5">
         <div class="flex justify-center items-center gap-1">
             <img src="./assets/logo.png" alt="" class="w-12">
             <div>
@@ -18,18 +18,210 @@
             </div>
         </div>
     </header>
-    
-    <!--hero section-->
-    <section class="w-full h-[700px] flex flex-col items-center justify-center bg-gradient-to-b from-[#FFFFFF] via-[#FADADD] to-[#F9A8D4] border-t-1">
-        <p class="text-center font-bold text-5xl mt-55">Purchase TK 200 or above & get <br> <span class="text-[#E527B2]">20% off</span></p>
-        <div class="flex justify-center items-center gap-15 mt-5 mb-0">
-            <p>Use Promo Code</p>
-            <div class="px-12 py-2 bg-[#E527B2]">
-                <p class="font-bold text-[#FFFFFF]">SELL200</p>
+
+    <main class="bg-gray-100">
+        <!--hero section-->
+        <section class="w-full h-[700px] flex flex-col items-center justify-center bg-gradient-to-b from-[#FFFFFF] via-[#FADADD] to-[#F9A8D4]">
+            <p class="text-center font-bold text-5xl mt-55">Purchase TK 200 or above & get <br> <span class="text-[#E527B2]">20% off</span></p>
+            <div class="flex justify-center items-center gap-15 mt-5 mb-0">
+                <p>Use Promo Code</p>
+                <div class="px-12 py-2 bg-[#E527B2]">
+                    <p class="font-bold text-[#FFFFFF]">SELL200</p>
+                </div>
             </div>
-        </div>
-        <img src="./assets/hero-bg.png" alt="" class="w-200 mb-10">
-    </section>
+            <img src="./assets/hero-bg.png" alt="" class="w-200 mb-10">
+        </section>
+
+        <section
+            id="product-container"
+            class="mt-15 w-11/12 mx-auto py-10 grid grid-cols-12 gap-8"
+        >
+            <section id="product-box" class=" col-span-9">
+                <div class="kitchen mb-15">
+                    <h1 class="text-2xl font-bold mb-2">Kitchnwear</h1>
+                    <div class="kitchen-items grid grid-cols-3 gap-5">
+                        <div class="card bg-base-100 shadow-sm ">
+                            <figure class="bg-gray-200 m-5 ">
+                                <img
+                                src="./assets/kitchen-1.png"
+                                alt="Shoes"
+                                class="rounded-xl py-5" />
+                            </figure>
+                            <div class="card-body items-center text-center mt-[-20px]">
+                                <p class="text-xl">⭐⭐⭐⭐⭐</p>
+                                <p class="font-bold text-xl">K.accesoris</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+
+                            </div>
+                        </div> 
+                        <div class="card bg-base-100 shadow-sm ">
+                            <figure class="bg-gray-200 m-5 ">
+                                <img
+                                src="./assets/kitchen-2.png"
+                                alt="Shoes"
+                                class="rounded-xl py-5" />
+                            </figure>
+                            <div class="card-body items-center text-center mt-[-20px]">
+                                <p class="text-xl">⭐⭐⭐⭐⭐</p>
+                                <p class="font-bold text-xl">K.accesoris</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+
+                            </div>
+                        </div> 
+                        <div class="card bg-base-100 shadow-sm ">
+                            <figure class="bg-gray-200 m-5 ">
+                                <img
+                                src="./assets/kitchen-3.png"
+                                alt="Shoes"
+                                class="rounded-xl py-5" />
+                            </figure>
+                            <div class="card-body items-center text-center mt-[-20px]">
+                                <p class="text-xl">⭐⭐⭐⭐⭐</p>
+                                <p class="font-bold text-xl">K.accesoris</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+
+                            </div>
+                        </div>  
+                    </div>
+                                         
+                    
+                </div>
+
+                <div class="sports mb-15">
+                    <h1 class="text-2xl font-bold mb-2">Sportswear</h1>
+                    <div class="kitchen-items grid grid-cols-3 gap-5">
+                        <div class="card bg-base-100 shadow-sm ">
+                            <figure class="bg-gray-200 m-5 ">
+                                <img
+                                src="./assets/sports-1.png"
+                                alt="Shoes"
+                                class="rounded-xl py-5" />
+                            </figure>
+                            <div class="card-body items-center text-center mt-[-20px]">
+                                <p class="text-xl">⭐⭐⭐⭐⭐</p>
+                                <p class="font-bold text-xl">K.accesoris</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+
+                            </div>
+                        </div> 
+                        <div class="card bg-base-100 shadow-sm ">
+                            <figure class="bg-gray-200 m-5 ">
+                                <img
+                                src="./assets/sports-2.png"
+                                alt="Shoes"
+                                class="rounded-xl py-5" />
+                            </figure>
+                            <div class="card-body items-center text-center mt-[-20px]">
+                                <p class="text-xl">⭐⭐⭐⭐⭐</p>
+                                <p class="font-bold text-xl">K.accesoris</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+
+                            </div>
+                        </div> 
+                        <div class="card bg-base-100 shadow-sm ">
+                            <figure class="bg-gray-200 m-5 ">
+                                <img
+                                src="./assets/sports-3.png"
+                                alt="Shoes"
+                                class="rounded-xl py-5" />
+                            </figure>
+                            <div class="card-body items-center text-center mt-[-20px]">
+                                <p class="text-xl">⭐⭐⭐⭐⭐</p>
+                                <p class="font-bold text-xl">K.accesoris</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+
+                            </div>
+                        </div>  
+                    </div>
+                                         
+                    
+                </div>
+
+
+                <div class="Furniture mb-15">
+                    <h1 class="text-2xl font-bold mb-2">Furniture</h1>
+                    <div class="kitchen-items grid grid-cols-3 gap-5">
+                        <div class="card bg-base-100 shadow-sm ">
+                            <figure class="bg-gray-200 m-5 ">
+                                <img
+                                src="./assets/furniture-1.png"
+                                alt="Shoes"
+                                class="rounded-xl py-5" />
+                            </figure>
+                            <div class="card-body items-center text-center mt-[-20px]">
+                                <p class="text-xl">⭐⭐⭐⭐⭐</p>
+                                <p class="font-bold text-xl">K.accesoris</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+
+                            </div>
+                        </div> 
+                        <div class="card bg-base-100 shadow-sm ">
+                            <figure class="bg-gray-200 m-5 ">
+                                <img
+                                src="./assets/furniture-2.png"
+                                alt="Shoes"
+                                class="rounded-xl py-5" />
+                            </figure>
+                            <div class="card-body items-center text-center mt-[-20px]">
+                                <p class="text-xl">⭐⭐⭐⭐⭐</p>
+                                <p class="font-bold text-xl">K.accesoris</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+
+                            </div>
+                        </div> 
+                        <div class="card bg-base-100 shadow-sm ">
+                            <figure class="bg-gray-200 m-5 ">
+                                <img
+                                src="./assets/furniture-3.png"
+                                alt="Shoes"
+                                class="rounded-xl py-5" />
+                            </figure>
+                            <div class="card-body items-center text-center mt-[-20px]">
+                                <p class="text-xl">⭐⭐⭐⭐⭐</p>
+                                <p class="font-bold text-xl">K.accesoris</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+
+                            </div>
+                        </div>  
+                    </div>
+                                         
+                    
+                </div>
+            </section>
+
+            <aside 
+                id="cart"
+                class="col-span-3">
+                <div class="p-5 rounded bg-white mt-8">
+                    <p class="font-bold text-2xl mb-5">Have coupon?</p>
+                    <div class="join">
+                        <input class="input join-item" placeholder="Email" />
+                        <button class="btn join-item rounded-r-xl  bg-pink-500 text-white">Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="cart-box mt-10 p-5 bg-white">
+                    <h2 class="font-bold">Cart</h2>
+                    <div class="" id="cart-container"></div>
+                    <div class="">
+                        <h2>Total price: <span id="total-price">0</span>TK</h2>
+                        <h2>Total Quantity: <span id="total-qurantity">0</span>Items</h2>
+                        <button class="btn bg-pink-500 text-white btn-block">Make purchase</button>
+                    </div>
+                </div>
+            </aside>
+
+        </section>
+    </main>
 
 
 </body>
