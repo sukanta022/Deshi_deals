@@ -49,9 +49,9 @@
                             </figure>
                             <div class="card-body items-center text-center mt-[-20px]">
                                 <p class="text-xl">⭐⭐⭐⭐⭐</p>
-                                <p class="font-bold text-xl">K.accesoris</p>
-                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
-                                <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+                                <p class="font-bold text-xl" id="product-name">K.accesoris</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl"><span id="product-price">39.00</span><p>
+                                <button id="add-to-cart" class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
 
                             </div>
                         </div> 
@@ -65,9 +65,8 @@
                             <div class="card-body items-center text-center mt-[-20px]">
                                 <p class="text-xl">⭐⭐⭐⭐⭐</p>
                                 <p class="font-bold text-xl">K.accesoris</p>
-                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl"><span>39.00</span><p>
                                 <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
-
                             </div>
                         </div> 
                         <div class="card bg-base-100 shadow-sm ">
@@ -80,8 +79,9 @@
                             <div class="card-body items-center text-center mt-[-20px]">
                                 <p class="text-xl">⭐⭐⭐⭐⭐</p>
                                 <p class="font-bold text-xl">K.accesoris</p>
-                                <p class="text-[#111111]/50 mb-7 text-xl">39.00</p>
+                                <p class="text-[#111111]/50 mb-7 text-xl"><span>39.00</span><p>
                                 <button class="btn bg-pink-500 text-white px-5 mt-[-20px]">Add to cart</button>
+
 
                             </div>
                         </div>  
@@ -211,18 +211,21 @@
 
                 <div class="cart-box mt-10 p-5 bg-white">
                     <h2 class="font-bold">Cart</h2>
-                    <div class="" id="cart-container"></div>
-                    <div class="">
-                        <h2>Total price: <span id="total-price">0</span>TK</h2>
-                        <h2>Total Quantity: <span id="total-qurantity">0</span>Items</h2>
-                        <button class="btn bg-pink-500 text-white btn-block">Make purchase</button>
+                    <div class="" id="cart-container">
+                        
                     </div>
+                        <div class="">
+                            <h2>Total price: <span id="total-price">0</span>TK</h2>
+                            <h2>Total Quantity: <span id="total-qurantity">0</span>Items</h2>
+                            <button class="btn bg-pink-500 text-white btn-block">Make purchase</button>
+                        </div>
                 </div>
             </aside>
 
         </section>
     </main>
 
+    <script src="./script/index.js"></script>
 
 </body>
 </html>
