@@ -34,6 +34,14 @@ for(let cartBtn of cartBtns){
         totalProduct = getElement("total-qurantity").innerText;
         totalProduct = Number(totalProduct) + 1;
         getElement("total-qurantity").innerText = totalProduct;
+
+
+        getElement("btn-clr").addEventListener("click", function(){
+            cartElement.innerHTML = ` `;
+            getElement("total-price").innerText = "0 ";
+            getElement("total-qurantity").innerText = "0";
+
+        });
             
 
     })
